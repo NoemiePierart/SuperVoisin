@@ -1,0 +1,30 @@
+<h3 id="title-page-offer">Toutes les annonces disponibles : <span id="category-title-orange"><%= params[:query] %></span></h3>
+
+<div id="map" class="rounded mx-auto"
+  style="width: 80vw; height: 50vh;"
+  data-markers="<%= @markers.to_json %>"
+  data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+  >
+</div>
+
+<div class="offers-container">
+  <% @offers.each do |offer| %>
+    <%= link_to offer_path(offer), class:"link-card" do %>
+    <div class="card-trip mb-4">
+      <img src="https://cdn.pixabay.com/photo/2016/02/28/12/00/gift-1226848_960_720.jpg" />
+      <div class="card-trip-infos">
+        <div>
+          <p><%= offer.user.username %> -- dispo le : <%= offer.date %></p>
+          <h2><%= offer.title %></h2>
+        </div>
+        <span class="card-trip-pricing"> <%= offer.price %>€</span>
+        <!-- <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" /> -->
+      </div>
+    </div>
+    <% end %>
+  <% end %>
+</div>
+
+
+
+

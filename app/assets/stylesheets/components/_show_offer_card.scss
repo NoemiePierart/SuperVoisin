@@ -1,0 +1,62 @@
+.offer-navbar {
+  width: 80vw;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-container {
+  width: 80vw;
+  margin: 10px auto;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  border: 1px solid $salmon1;
+}
+
+.offer-summary {
+  width: 75%
+}
+
+.offer-header{
+  overflow: hidden;
+  // height: 120px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.offer-photo {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.offer-description {
+  padding: 16px 25px;
+  border-top: 2px solid $light-gray;
+}
+
+h2 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.realisation-photo {
+  background-size: cover;
+  background-position: center;
+  width: 80vw;
+  display: flex;
+  margin: 0px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

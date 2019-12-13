@@ -1,0 +1,29 @@
+.footer-container {
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px solid $salmon1;
+  height: 70px;
+  z-index: 1000;
+}
+
+.footer-container > .card {
+  border: none;
+  color: $salmon1;
+  text-align: center
+}
+
+.footer-container > .card >.fas, .far{
+  font-size: 27px
+}
+
+.footer-container > .card >.card-title {
+  font-size: 14px;
+  padding-top: 10px
+}
+
+.footer-container > .col {
+  padding-left: 0;
+}
+
+

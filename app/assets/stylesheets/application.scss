@@ -1,0 +1,25 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+@import "pages/profil";
+@import "pages/home";
+@import "users/show";
+@import "components/togglable_vertical_tabs";
+@import "components/product_card";
+@import "components/card_offer";
+@import "components/show_offer_card";
+@import "components/search_form";
+
+.body-content{
+  padding-bottom: 80px;
+}

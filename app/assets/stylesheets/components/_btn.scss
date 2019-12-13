@@ -1,0 +1,39 @@
+.btn {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $salmon1;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: $salmon3;
+  color: white;
+}
+
+.btn-small {
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: $salmon1;
+  transition: background 0.3s ease;
+}
+
+.btn-small:hover {
+  background: $salmon3;
+  color: white;
+}
+
+.btn-light {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-light:hover {
+  opacity: 1;
+}
